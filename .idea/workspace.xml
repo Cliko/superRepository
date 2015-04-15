@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d662db5-0103-494a-9878-0b297996195f" name="Default" comment="Merge branch 'master' of github.com:Cliko/superRepository&#10;&#10;Conflicts:&#10;&#9;superRepertory.js&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/roots.js" afterPath="$PROJECT_DIR$/lib/roots.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superRepertory.html" afterPath="$PROJECT_DIR$/superRepertory.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/superRepertory.js" afterPath="$PROJECT_DIR$/superRepertory.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -30,11 +29,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="superRepertory.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="superRepertory.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/superRepertory.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.21512605" vertical-offset="25" max-vertical-offset="833">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="superRepertory.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/superRepertory.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -50,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="superRepertory.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="superRepertory.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/superRepertory.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43814433" vertical-offset="0" max-vertical-offset="582">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state vertical-scroll-proportion="-8.461538" vertical-offset="562" max-vertical-offset="935">
+              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -74,9 +83,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/superRepertory.js" />
         <option value="$PROJECT_DIR$/lib/roots.js" />
         <option value="$PROJECT_DIR$/superRepertory.html" />
+        <option value="$PROJECT_DIR$/superRepertory.js" />
       </list>
     </option>
   </component>
@@ -183,7 +192,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429104999869</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge branch 'master' of github.com:Cliko/superRepository&#10;&#10;Conflicts:&#10;&#9;superRepertory.js&#10;">
+      <created>1429105184586</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1429105184586</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -260,14 +275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/superRepertory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/roots.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
@@ -276,10 +283,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/superRepertory.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/superRepertory.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43814433" vertical-offset="0" max-vertical-offset="582">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state vertical-scroll-proportion="-8.461538" vertical-offset="562" max-vertical-offset="935">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/superRepertory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21512605" vertical-offset="25" max-vertical-offset="833">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding />
         </state>
       </provider>
