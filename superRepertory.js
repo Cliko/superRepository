@@ -1,5 +1,4 @@
 contacts = new Mongo.Collection( "contacts" );
-
 if (Meteor.isClient) {
 
     Template.Home.rendered = function(){
@@ -20,20 +19,22 @@ if (Meteor.isClient) {
 
     Template.ContactCreate.events
     ( {
-        'click #submit_contact' : function( event, template )
-        {
+        'click #submit_contact' : function( event, template ) {
             event.preventDefault();
-            var $lastname = template.find( "#lastname" );
-            var $firstname = template.find( "#firstname" );
-            var $mail = template.find( "#mail" );
-            var $phone = template.find( "#phone" );
-
-            if( $lastname.value !== "" && $firstname.value !== "" && $mail.value !== "" && $phone.value !== "" ){
-                contacts.insert( { lastname : $lastname.value , firstname : $firstname.value , mail : $mail.value , phone : $phone.value } );
-            }
+            var $lastname = template.find("#lastname");
+            var $firstname = template.find("#firstname");
+            var $mail = template.find("#mail");
+            var $phone = template.find("#phone");
         }
-    } );
+    });
 
+  // Template.Home = function()
+  // {
+  //     loginButtons.set('dropdownVisible', false);
+  // };
+  Template.Home.rendered = function(){
+    Accounts._loginButtonsSession.set('dropdownVisible', true);
+  };
 }
 
 if (Meteor.isServer) {
