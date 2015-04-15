@@ -1,1 +1,6 @@
 /* CSS declarations go here */
+/*LOGIN*/
+#login-buttons {display: block;margin-right:0;}
+.login-link-text,.login-close-text{display: none;}
+#login-dropdown-list{position: initial;}
+#login-dropdown-list{border: 0; z-index: 0; box-shadow: none; -webkit-box-shadow:none;margin: 0 auto;}
