@@ -1,3 +1,10 @@
+html {width: 100%; background: #e2e2e2;font-family:'Arial', Helvetica;}
+.content {width: 90%; margin: 0 auto; background: white; padding: 4%;}
+/* navbar */
+.navbar .navbar-header {background: #888; width: 100%; margin: 0; padding: 0;line-height: 25px;}
+.navbar .navbar-header a {display: inline-block; line-height: 25px; padding: 1% 3%; color: white; font-size: 12px; text-decoration: none;border-right: 1px solid #999;}
+.navbar .navbar-header a:hover {color: #d4d4d4;text-decoration: none; } 
+.navbar {margin-bottom: 5%;}
 /* CSS declarations go here */
 /*LOGIN*/
 #login-buttons {display: block;margin-right:0;}
